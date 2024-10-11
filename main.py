@@ -3,5 +3,5 @@ def test_function():
         print('in area function - test_function')
     i_f() #при воспроизведении функции i_f вне функции test_function не будет возвращать тк.
     # имеются различия пространста имен
-
+i_f()#в данной области не работает
 test_function()
